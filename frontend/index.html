@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <link rel="stylesheet" href="style.css">k
+    <link rel="stylesheet" href="/frontend/styles/style.css">
 </head>
 <body>
     <header></header>
-    <main></main>
+    <main>
+        <section id="beginning">
+            <h1>Quiz Interativo</h1>
+        </section>
+
+        <section id="quiz">
+            <div id="questContainer">
+                <p id="question"></p>
+                <div id="answers"></div>
+            </div>
+            <div id="timer">Tempo:<span id="timerSpan">30</span> s</div>
+        </section>
+
+        <section id="result">
+            <h2>Resultados</h2>
+            <p id="score"></p>
+            <button id="btnRestart">Reiniciar Quiz</button>
+        </section> 
+    </main>
     <footer></footer>
     <script src="scripts/script.js" defer></script>
 </body>
